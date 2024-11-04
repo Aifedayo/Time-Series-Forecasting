@@ -11,6 +11,8 @@ def calculate_ema(prices, period):
 
     return np.array(ema)
 
+
+
 prices = [10, 20, 30, 40]
 ema = calculate_ema(prices, period=3)
 print("EMA:", ema)
